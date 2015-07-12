@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" type="text/css" href="http://localhost:8001/theme/css/style.css" />
+    <title>Test Site</title>
+    <meta charset="utf-8" />
+  </head>
+  <body>
+    <header>
+      <pre class="asciitext">       transforming enemies into friends</pre>
+      <pre class="asciitext"><a href="http://localhost:8001">      _______  _______  _______  __   __  ______  ______
+     |       ||   _   \|   _   ||  | |  ||      ||      \
+the  |.      ||.  l   /|.  |   ||. \ |  ||.  ___||.  /   |
+     |__   __||.  _   1|.  |   ||. |\|  ||.     ||.  /   |
+     |.      ||:  |   ||:  |   ||: | |  ||:  ___||:  /   |
+     |l.. :. ||l:.|:. ||l:. :. ||l.| |. ||l:   .||l:   ./  curtain
+     `-------'`--- ---'`-------'`--- ---'`------'`-----'
+</a></pre>
+      <pre class="asciitext">
+                                   using 128 characters</pre>
+      <div class="postslogan"></div>
+    </header><!-- /#banner -->
+    <nav id="menu"><ul>
+    </ul></nav><!-- /#menu -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+
+<div class="article">
+  <div class ="headline">
+    <a class="title" href="http://localhost:8001/this-is-the-ironed-curtain.html">
+      This is The Ironed Curtain
+    </a>
+    <span class="who">
+      ibowman
+    </span>
+    <span class="when">
+0101840000    </span>
+  </div>
+  <div class="content">
+    <p>I woke up and decided to contribute.</p>
+<p>At first I thought to write a technically oriented blog. And I started doing that. But then I didn't like the look or functionality of any of the blog platforms I tried. And settling for what someone else has built before is not very technically oriented, is it?</p>
+<p>So then I thought I should write a blog, as in coding one. And I got started on such a project, using Python.</p>
+<p>Holy crap that was a lot of work for the average night or weekend, even with all the raging parental horomones popping off these days. And the more I learned about templating languages, the more I realized I could create what I wanted by building a theme with Jinja... if only I found an existing platform to run that on top of. And one day, I did find such a thing.</p>
+<p>Ladies and gentleman, introducing THE IRONED CURTAIN, the world's first 7-bit website, a throwback to a simpler time when enemies became friends using 128 characters (TM). In addition to a blog, THE IRONED CURTAIN is a Pelican theme written by yours truly.</p>
+<p>Click around and you'll see how fast everything loads, due to the distinct lack of the following.</p>
+<p>distracting ads</p>
+<p>pointless graphics</p>
+<p>inneficient flash code</p>
+<p>knee-jerk political pretense, completely forgettable within 24 hours</p>
+<p>meaningless lists that add no value to the world</p>
+<p>THE IRONED CURTAIN uses the origianal ASCII character set, as well as bold font-weight (e.g. for hyperlinks). That's it. The entire thing could be transcribed by an alcove of hipsters equipped with manual typewriters.</p>
+<p>In THE IRONED CURTAIN I will cover a number of technical topics. An obvious category might relate to my work as a Programmer Analyst. But there are plenty of other things to discuss. On the internet there is a lot of technical content out there. Great content. But I hope when you read THE IRONED CURTAIN you find the perspective to be unique.</p>
+
+  </div>
+  <div class="comments" id="modal">
+<div id="disqus_thread"></div>
+<script type="text/javascript">
+  /* * * CONFIGURATION VARIABLES * * */
+  var disqus_shortname = 'theironedcurtain';
+
+  /* * * DON'T EDIT BELOW THIS LINE * * */
+  (function() {
+  var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+  dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+  (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+  })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
+
+
+  </div>
+  <div class="command" id="toggle">
+    comments
+  </div>
+</div>
+
+<script>
+$("#modal").hide();
+$(document).ready(function() {
+  $("#toggle").click(function() {
+    $("#modal").show();
+    $("#toggle").hide();
+  });
+});
+</script>
+    
+    <footer id="contentinfo" class="body">
+      <!-- <address id="about" class="vcard body"> -->
+      <!-- 	Proudly powered by <a href="http://getpelican.com/">Pelican</a>, -->
+      <!-- 	which takes great advantage of <a href="http://python.org">Python</a>. -->
+      <!-- </address><\!-- /#about -\-> -->
+    </footer><!-- /#contentinfo -->
+  </body>
+</html>

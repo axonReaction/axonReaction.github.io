@@ -1,0 +1,69 @@
+body {
+  font-family : monospace ;
+  font-size : 100% ;
+  background-color : white;
+  color : black ;
+  width : 80% ;
+  min-width : 400px;
+  min-height : 200px ;
+  max-width: 800px;
+  padding : 1em ; 
+  margin : 0% 5% ; 
+  display : block ;
+}
+
+body .postslogan {
+  padding-bottom: 25px;
+}
+
+body .article {
+    font-size: 120%;
+
+}
+
+body .article .headline {
+  font-size: 125%;
+}
+
+body .article .headline {
+  text-transform: lowercase;
+}
+
+
+body .article .headline .when {
+  text-transform: uppercase;
+}
+
+body .article .content {
+    padding-bottom: 25px;
+tatw
+}
+
+body .article .command {
+  font-size: 125%;  
+  font-weight: 900;
+  cursor: pointer;
+  padding-bottom: 200px;
+}
+
+body .article .command:hover {
+  font-weight: normal;
+}
+
+a:link { color : black; font-weight: 900; text-decoration : none !important; }
+a:hover   { font-weight: normal; }
+a:visited { color: black; }
+
+pre.asciitext {
+  font-size : 150% ;
+}
+
+#menu li {
+    display : inline ;
+}
+
+#post-list {
+    margin-bottom : 1em ;
+    margin-top : 1em ;
+}
+
