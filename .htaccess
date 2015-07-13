@@ -1,3 +1,0 @@
-RewriteEngine On
-RewriteCond %{HTTP_HOST} ^(www.)?ibowman.com$
-RewriteRule ^(/)?$ theironedcurtain [L]
