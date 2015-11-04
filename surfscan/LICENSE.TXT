@@ -1,0 +1,62 @@
+By registering for downloads from the USC Laboratory of Neuro
+Imaging, you are agreeing to the following terms and conditions as
+well as to the Terms of Use of the LONI website. To view the LONI
+website's Terms of Use go to,
+http://www.loni.ucla.edu/software/termsofuse.php.
+
+    * Permission is granted to use this software without charge for
+    non-commercial research purposes only.
+
+    * Other than the rights granted herein, LONI retains all rights,
+    title, and interest in LONI software and Technology, and You
+    retain all rights, title, and interest in Your Modifications and
+    associated specifications, subject to the terms of this License.
+
+    * You may make verbatim copies of this software for personal use, or
+    for use within your organization, provided that you duplicate all
+    of the original copyright notices and associated disclaimers. If
+    you provide the use of the software to other users within your
+    organization, they also must comply with all the terms of this
+    Software Distribution Agreement.
+
+    * YOU MAY NOT DISTRIBUTE COPIES of this software, or copies of
+    software derived from this software, to others outside your
+    organization without specific prior written permission from the
+    UCLA Laboratory of Neuro Imaging, except where noted for specific
+    software products.
+
+    * You must not remove or alter any copyright or other proprietary
+    notices in the software.
+
+    * Software has not been reviewed or approved by the Food and Drug
+    Administration, and is for non-clinical, IRB-approved Research Use
+    Only. In no event shall data or images generated through the use
+    of the Software be used in the provision of patient care.
+
+    * THE SOFTWARE IS PROVIDED "AS IS," AND THE UNIVERSITY OF CALIFORNIA
+    AND ITS COLLABORATORS DO NOT MAKE ANY WARRANTY, EXPRESS OR
+    IMPLIED, INCLUDING BUT NOT LIMITED TO WARRANTIES OF
+    MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE, NOR DO THEY
+    ASSUME ANY LIABILITY OR RESPONSIBILITY FOR THE USE OF THIS
+    SOFTWARE.
+
+    * This software is for research purposes only and has not been
+    approved for clinical use.
+
+    * You may publish papers and books using results produced using
+    software provided by this site provided that you reference the
+    appropriate citations. A list of citations is available here.
+
+    * You agree to comply with LONI's Trademark Usage Requirements, as
+    modified from time to time, described in the "Use of Materials
+    Limitations" section of the LONI Terms of Use Agreement. Except as
+    expressly provided in this License, you are granted no rights in
+    or to any LONI trademarks now or hereafter used or licensed by
+    LONI.
+
+    * All Technology and technical data delivered under this Agreement
+    are subject to US export control laws and may be subject to export
+    or import regulations in other countries. You agree to comply
+    strictly with all such laws and regulations and acknowledge that
+    you have the responsibility to obtain such licenses to export,
+    re-export, or import as may be required after delivery to you.

@@ -1,0 +1,93 @@
+WHAT IS SURFSCAN?
+
+Surfscan is a distributable workflow for visual verification of
+subject-based image data. The workflow consists of two independent
+components: a pre-processing pipeline and a standalone visualizer.
+
+MRI Data -> Pre-Processing  -> 2D Images -> Visualizer -> Navigable Images
+
+Surfscan pre-processing will soon be incorporated as standard
+functionality within the LONI Pipeline. The Surfscan Visualizer
+operates on the output from the pre-processing pipeline, and is
+available for Linux, Mac OS X, and Windows. Note that the visualizer
+is an independent component, and can display any 2D images previously
+arranged in a Surfscan friendly directory structure.
+
+WHY SURFSCAN?
+
+We became interested in developing a data collection quality control
+solution when various LONI researchers notified us of recurring image
+validation challenges. Specifically, neuroscientists described being
+overwhelmed carrying out validation of large-scale neuroimaging
+output, such as verifying surface extraction executed on a repository
+of MRI images.
+
+WHAT CAN SURFSCAN DO FOR YOU?
+
+Screenshot: http://ibowman.com/wp-content/uploads/2011/09/screenshot.png
+
+Simply put, Surfscan provides visual representations of view-specific
+pages of subject image data. An example of a view-specific subject
+image page (as shown above) is 16 thumbnail images of a right
+hemisphere form the sagittal view, one thumbnail per subject. The
+interface of the Surfscan Visualizer allows users to page through
+subjects, as well as scroll through different view images of the same
+subject (e.g. switch from a lateral to an axial view). In addition,
+users can mark subjects (generally to indicate collection errors). In
+the example above, two subjects have been marked as their
+corresponding cortical surface exhibits patches of discontinuity.
+
+The following video demonstrates a user applying Surfscan toward
+verifying the integrity of extracted cortical surfaces.
+
+Video: http://player.vimeo.com/video/28206875?title=0&amp;byline=0&amp;portrait=0
+
+Toward the beginning of the movie, the user marks a cortical surface
+containing a defect. Then the users pages through the subjects, marks
+two more images, and scrolls through different subject views. Note
+that the asterisk marks persist through different views, as the pages
+refer to the same group of subjects. (The currently implemented key
+mapping has the UP and DOWN arrows paging through subjects, while the
+RIGHT and LEFT arrows scroll through the views.) Finally, the user
+emails the marked list.
+
+WORKFLOW OVERVIEW
+
+As mentioned above, the Surfscan workflow consists of two components. 
+
+* Pre-Processing Pipeline -- Creates and writes cortical surface view
+images to subject-specific directories.
+
+* Surfscan Visualizers -- Displays the view images, and allows
+navigation, visual inspection and categorization of subjects.
+
+An example of the pre-processing output is 12 2D cortical image view
+files arranged in subject-specific directories.
+
+MRI Surface Data -> Pre-Processing -> 12 2D Images per each
+subject-specific directory and an SSC file that lists the images
+
+The pre-processor also creates an ASCII SSC (Surfscan) file that
+points to the images and describes the directory structure. This SSC
+file is used by the Surfscan Visualizer to display the data. The
+format of this file is simple, and is described in the Standalone
+Visualizer How-to document.
+
+The Surfscan Visualizer uses the SSC file to load and display the
+subject images to the user.
+
+SSC file -> Surfscan Visualizer -> Navigable Image Display
+
+SURFSCAN VISUALIZER STANDALONE CAPABILITY
+
+If the user is able to format and arrange the 2D imaging data
+appropriately, the Surfscan Visualizer can be used independently of
+the pre-processor to view any subject-based two dimensional data. The
+following video demonstrates the application of the Surfscan
+Visualizer toward 2D slice data.
+
+Video: http://player.vimeo.com/video/29154487?title=0&amp;byline=0&amp;portrait=0
+
+
+
+
